@@ -12,7 +12,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -20,51 +20,59 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>-->
 </head>
 
-
-
-<body>
+<body class="pt-5">
     <header>
-        <nav class="navbar fixed-top navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Start</a>
+        <nav class="navbar fixed-top navbar-dark bg-dark font-weight-lighter">
+            <a class="navbar-brand" href="#">Top</a>
             <a class="navbar-brand" href="#">Skills</a>
-            <a class="navbar-brand" href="#">Projekte</a class="navbar-brand">
+            <a class="navbar-brand" href="#">Projekte</a>
+            <a class="navbar-brand" href="#">Kontakt</a>
         </nav>
     </header>
 
-    <main class="container">
-        <section class="row bg-light">
-            <div class="col-12 mb-1">
+    <main class="container pt-1 font-weight-light">
+        
+        <!-- introtext -->
+        <section id="intro" class="row bg-light text-center p-4">
+            <div class="col-12 mt-5">
                 <h1>Julie Alexandria Mahlke</h1>
-                <h2>Creative Director</h2>
+                <h2 class="text-secondar font-weight-lighter">Webdeveloper</h2>
             </div>
-            <div class="col-12 mb-3">
-                <img src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80"
-                    alt="Julie Mahlke" width="100%">
+            <div class="col p-5">
+                <img src="images/julie-mahlke.jpg" alt="Julie Mahlke" class="img-fluid rounded-circle">
             </div>
-            <div class="col-12">
-                Hallo, bla bla bla ich heiße Julie Alexandria Mahlke,
+            <div class="col-12"> 
+                <p>Hallo, bla bla bla ich heiße Julie Alexandria Mahlke,
                 bin 32 Jahre alt und derzeit in fester Anstellung als Creative Director in einer Internet- und
-                Werbeagentur. <b>Herzlich willkommen auf meinem Portfolio!</b>
+                Werbeagentur.</p> <b>Herzlich willkommen auf meinem Portfolio!</b>
             </div>
         </section>
 
-        <section id="#skills" class="">
+        <!-- skills -->
+        <section id="#skills" class="mt-5 px-5">
             <h3>Skills</h3>
 
             <h4>Kenntnisse Webentwicklung</h4>
-            <ul>
-                <li>Webdesign</li>
-                <li>UX-Design</li>
-                <li>HTML (5)</li>
-                <li>CSS (3)</li>
-                <li>Markdown</li>
-                <li>iTerm</li>
-                <li>Shell</li>
-                <li>Git</li>
-                <li>Bootstrap</li>
+
+            <span class="badge badge-primary p-2">Primary</span>
+
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Disabled tooltip">
+                <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+              </span>
+
+            <ul class="list-group list-group-flush"">
+                <li class="list-group-item">Webdesign</li>
+                <li class="list-group-item">UX-Design</li>
+                <li class="list-group-item">HTML (5)</li>
+                <li class="list-group-item">CSS (3)</li>
+                <li class="list-group-item">Markdown</li>
+                <li class="list-group-item">iTerm</li>
+                <li class="list-group-item">Shell</li>
+                <li class="list-group-item">Git</li>
+                <li class="list-group-item">Bootstrap</li>
             </ul>
 
             <h4>Software Design / Video</h4>
@@ -132,8 +140,28 @@
         </section>
 
         <section id="general-skills">
-         <h3>Allgemeine Kompetenzen</h3>
+            <h3>Allgemeine Kompetenzen</h3>
+            <span class="badge badge-pill badge-dark">teamfähig</span>
+            <span class="badge badge-pill badge-dark">verantwortungsvoll</span>
+            <span class="badge badge-pill badge-dark">offen für neue Herausforderungen</span>
+            <span class="badge badge-pill badge-dark">ehrgeizig</span>
+            <span class="badge badge-pill badge-dark">neugierig</span>
+            <span class="badge badge-pill badge-dark">kreativ</span>
+            <span class="badge badge-pill badge-dark">mit Liebe zum Detail</span>
+            <span class="badge badge-pill badge-dark">schnelle Auffassungsgabe</span>
+            <span class="badge badge-pill badge-dark">selbstständig </span>
+            <span class="badge badge-pill badge-dark">zuverlässig</span>
+         
          teamfähig | verantwortungsvoll | offen für neue Herausforderungen | ehrgeizig | kreativ | mit Liebe zum Detail | schnelle Auffassungsgabe | selbstständig | zuverlässig
+        </section>
+
+        <section id="contact">
+            <h3>Kontakt</h3>
+            Julie Alexandria Mahlke
+            Tremsbütteler Weg 53, 22941 Bargteheide
+            Tel.: 04532 / 2788818
+            Mobil 0173 / 8551213
+            E-Mail: mail@julie-alexandria.de
         </section>
     </main>
 
