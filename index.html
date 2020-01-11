@@ -12,7 +12,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Bootstrap JS -->
-    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -20,233 +20,251 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
 </head>
 
 <body class="pt-5">
     <header>
-        <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark row">
-            <a class="navbar-brand col col-md-6" href="#">Julie</a>
-            <a class="navbar-brand col col-md-2 font-weight-lighter" href="#skills">Skills</a>
-            <a class="navbar-brand col col-md-2 font-weight-lighter" href="#vitae">Vita</a>
-            <a class="navbar-brand col col-md-2 font-weight-lighter" href="#contact">Kontakt</a>
-        </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Julie</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link font-weight-lighter" href="#skills">Skills <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-lighter" href="#vitae">Vita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-lighter" href="#contact">Kontakt</a>
+                  </li>
+            </div>
+          </nav>
     </header>
 
-    <main class="container pt-1 font-weight-light">
-
-        <!-- introtext -->
-        <section id="intro" class="row bg-light text-left-lg p-4">
-            <div class="col-12 mt-3 text-center">
-                <h1>Julie Alexandria Mahlke</h1>
-                <h2 class="text-secondar font-weight-lighter">Webdeveloper</h2>
-            </div>
-            <div class="col col-md-6 col-lg-3 p-5">
-                <img src="images/julie-mahlke.jpg" alt="Julie Mahlke" class="img-fluid rounded-circle">
-            </div>
-            <div class="col-12 col-md-6 col-lg-7 p-5 align-self-center">
-                <p>Hallo, bla bla bla ich heiße Julie Alexandria Mahlke,
-                    bin 32 Jahre alt und derzeit in fester Anstellung als Creative Director in einer Internet- und
-                    Werbeagentur.</p> <b>Herzlich willkommen auf meinem Portfolio!</b>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section id="skills" class="mt-5 px-3 row">
-            <h3 class="font-weight-normal mb-3 col-12">Skills</h3>
-
-            <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
-                <li class="list-group-item list-group-item-dark font-weight-bold">Webentwicklung</li>
-                <li class="list-group-item">Webdesign</li>
-                <li class="list-group-item">UX-Design</li>
-                <li class="list-group-item">HTML (5)</li>
-                <li class="list-group-item">CSS (3)</li>
-                <li class="list-group-item">Markdown</li>
-                <li class="list-group-item">iTerm</li>
-                <li class="list-group-item">Shell</li>
-                <li class="list-group-item">Git</li>
-                <li class="list-group-item">Bootstrap</li>
-            </ul><br><br>
-
-            <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
-                <li class="list-group-item list-group-item-dark font-weight-bold">Software</li>
-                <li class="list-group-item">Visual Studio Code</li>
-                <li class="list-group-item">iTerm</li>
-                <li class="list-group-item">PhpStorm</li>
-                <li class="list-group-item">Adobe Dreamweaver</li>
-                <li class="list-group-item">Adobe XD</li>
-                <li class="list-group-item">Adobe Fireworks</li>
-            </ul><br><br>
-
-            <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
-                <li class="list-group-item list-group-item-dark font-weight-bold">Design / Video</li>
-                <li class="list-group-item">Adobe InDesign</li>
-                <li class="list-group-item">Adobe Photoshop</li>
-                <li class="list-group-item">Adobe Illustrator</li>
-                <li class="list-group-item">Adobe Bridge</li>
-                <li class="list-group-item">Adobe Acrobat Prof</li>
-                <li class="list-group-item">Affinity Photo</li>
-                <li class="list-group-item">Affinity Designer</li>
-                <li class="list-group-item">Affinity Publisher</li>
-            </ul><br><br>
-
-            <ul class="list-group list-group-flush md-4 col-md-6 col-lg-3">
-                <li class="list-group-item list-group-item-dark font-weight-bold">CMS-Systeme</li>
-                <li class="list-group-item">Contao</li>
-                <li class="list-group-item">Wordpress</li class="list-group-item">
-                <li class="list-group-item">Joomla</li>
-            </ul>
-        </section>
-
-        <!-- Vitae -->
-        <section id="vitae" class="mt-5 px-3 row">
-
-            <section class="col-lg-5 mb-3 ml-n3">
-                <h3 class="font-weight-normal mb-3">Berufserfahrung</h3>
-
-                <div class="list-group my-3">
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Ausbilderin (IHK)</h5>
-                            <small>seit Juli 2019</small>
-                        </div>
-                        <p class="mb-1">AEVO - Berufs- und arbeitspädagogische Qualifikation (2018)</p>
-                        <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
-                    </section>
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Teamleiterin der Grafikabteilung</h5>
-                            <small>seit Januar 2017</small>
-                        </div>
-                        <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
-                    </section>
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Mediengestalterin<br>
-                                <span class="font-weight-light"> Digital &amp; Print</span>
-                            </h5>
-                            <small class="text-muted">seit August 2011</small>
-                        </div>
-                        <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
-                    </section>
-
-                </div>
-            </section>
-
-            <section class="col-lg-7 p-0">
-                <h3 class="font-weight-normal mb-3">Bildung</h3>
-
-                <div class="list-group my-3">
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Bootcamp &quot;neue fische&quot;</h5>
-                            <small class="text-muted">01/2020 - 04/2020</small>
-                        </div>
-                        <p class="mb-1">Weiterbildung zum Webdeveloper</p>
-                        <small class="text-muted">neuefische GmbH, 22761 Hamburg</small>
-                    </section>
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">
-                                Ausbildung zur Mediengestalterin<br>
-                                <span class="font-weight-light"> Digital &amp; Print</span>
-                            </h5>
-                            <small class="text-muted">08/2008 - 07/2011</small>
-                        </div>
-                        <small class="text-muted">SECRA GmbH, 23730 Sierksdorf | Walter-Lehmkuhl-Schule,
-                            Neumünster</small>
-                    </section>
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Studium Informatik / Medieninformatik</h5>
-                            <small>10/2007 - 03/2008</small>
-                        </div>
-                        <small class="text-muted">Universität zu Lübeck</small>
-                    </section>
-
-                    <section class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Allgemeine Hochschulreife</h5>
-                            <small class="text-muted">09/1999 - 06/2007</small>
-                        </div>
-                        <small class="text-muted">Anne-Frank-Schule, Bargteheide</small>
-                    </section>
-                </div>
-            </section>
-
-        </section>
-
-        <!-- General skills -->
-        <div class="row">
-            <section id="general-skills" class="mt-5 px-3 col-12">
-                <h3 class="font-weight-normal mb-3">Allgemeine Kompetenzen</h3>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">verantwortungsvoll</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">ehrgeizig</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">neugierig</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">kreativ</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">mit Liebe zum Detail</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">schnelle Auffassungsgabe</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">selbstständig </span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">zuverlässig</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">teamfähig</span>
-                <span class="badge badge-pill badge-light py-2 px-3 mb-1">offen für neue Herausforderungen</span>
-            </section>
-        </div>
-
-        <!-- Contact -->
-        <section id="contact" class="mt-5 row">
-            
-            <div class="col-4">
-                <section class="card">
-                    <div class="card-body">
-                        <h3 class="card-title font-weight-normal">Kontakt</h3>
-                        <h4 class="h5 card-title font-weight-normal mb-2">Julie Alexandria Mahlke</h4>
-                        <p class="card-text">
-                            Tremsbütteler Weg 53,</br>
-                            22941 Bargteheide<br>
-                            Tel.: 04532 - 2788818<br>
-                            Mobil: 0173 - 8551213<br>
-                            E-Mail: <a href="mailto:mail@julie-alexandria.de">mail@julie-alexandria.de</a>
-                        </p>
+    <main class="pt-1 font-weight-light">
+        <div class="jumbotron">
+            <div class="container">
+                <!-- introtext -->
+                <section id="intro" class="row text-left-lg p-4 ">
+                    <div class="col-12 mt-3 text-center">
+                        <h1>Julie Alexandria Mahlke</h1>
+                        <h2 class="text-secondar font-weight-lighter">Webdeveloper</h2>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 p-5">
+                        <img src="images/julie-mahlke.jpg" alt="Julie Mahlke" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-7 p-5 align-self-center">
+                        <p>Hallo, bla bla bla ich heiße Julie Alexandria Mahlke,
+                            bin 32 Jahre alt und derzeit in fester Anstellung als Creative Director in einer Internet-
+                            und
+                            Werbeagentur.</p> <b>Herzlich willkommen auf meinem Portfolio!</b>
                     </div>
                 </section>
             </div>
+        </div>
 
-            <div class="col-4">
-                <section class="card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <a href="https://github.com/juliemahlke" target="_blank">
-                                <img width="25" height="25" src="images/logo-github.png"
-                                    class="rounded-circle float-left mr-2">
-                                Besuche mich auf Github</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="https://codepen.io/juliemahlke" target="_blank">
-                                <img width="25" height="25" src="images/logo-codepen.png"
-                                    class="rounded-circle float-left mr-2">
-                                Besuche mich auf Codepen</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="https://www.xing.com/profile/JulieAlexandria_Mahlke/cv" target="_blank">
-                                <img width="25" height="25" src="images/logo-xing.jpg"
-                                    class="rounded-circle float-left mr-2">
-                                Besuche mich auf Xing</a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <!-- Skills -->
+            <section id="skills" class="mt-5 px-3 row">
+                <h3 class="font-weight-normal mb-3 col-12">Skills</h3>
+
+                <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
+                    <li class="list-group-item list-group-item-dark font-weight-bold">Webentwicklung</li>
+                    <li class="list-group-item">Webdesign</li>
+                    <li class="list-group-item">UX-Design</li>
+                    <li class="list-group-item">HTML (5)</li>
+                    <li class="list-group-item">CSS (3)</li>
+                    <li class="list-group-item">Markdown</li>
+                    <li class="list-group-item">iTerm</li>
+                    <li class="list-group-item">Shell</li>
+                    <li class="list-group-item">Git</li>
+                    <li class="list-group-item">Bootstrap</li>
+                </ul><br><br>
+
+                <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
+                    <li class="list-group-item list-group-item-dark font-weight-bold">Software</li>
+                    <li class="list-group-item">Visual Studio Code</li>
+                    <li class="list-group-item">iTerm</li>
+                    <li class="list-group-item">PhpStorm</li>
+                    <li class="list-group-item">Adobe Dreamweaver</li>
+                    <li class="list-group-item">Adobe XD</li>
+                    <li class="list-group-item">Adobe Fireworks</li>
+                </ul><br><br>
+
+                <ul class="list-group list-group-flush mb-4 col-md-6 col-lg-3">
+                    <li class="list-group-item list-group-item-dark font-weight-bold">Design / Video</li>
+                    <li class="list-group-item">Adobe InDesign</li>
+                    <li class="list-group-item">Adobe Photoshop</li>
+                    <li class="list-group-item">Adobe Illustrator</li>
+                    <li class="list-group-item">Adobe Bridge</li>
+                    <li class="list-group-item">Adobe Acrobat Prof</li>
+                    <li class="list-group-item">Affinity Photo</li>
+                    <li class="list-group-item">Affinity Designer</li>
+                    <li class="list-group-item">Affinity Publisher</li>
+                </ul><br><br>
+
+                <ul class="list-group list-group-flush md-4 col-md-6 col-lg-3">
+                    <li class="list-group-item list-group-item-dark font-weight-bold">CMS-Systeme</li>
+                    <li class="list-group-item">Contao</li>
+                    <li class="list-group-item">Wordpress</li class="list-group-item">
+                    <li class="list-group-item">Joomla</li>
+                </ul>
+            </section>
+
+            <!-- Vitae -->
+            <section id="vitae" class="mt-5 px-3 row">
+
+                <section class="col-lg-5 mb-3 ml-n3">
+                    <h3 class="font-weight-normal mb-3">Berufserfahrung</h3>
+
+                    <div class="list-group my-3">
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Ausbilderin (IHK)</h5>
+                                <small>seit Juli 2019</small>
+                            </div>
+                            <p class="mb-1">AEVO - Berufs- und arbeitspädagogische Qualifikation (2018)</p>
+                            <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
+                        </section>
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Teamleiterin der Grafikabteilung</h5>
+                                <small>seit Januar 2017</small>
+                            </div>
+                            <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
+                        </section>
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Mediengestalterin<br>
+                                    <span class="font-weight-light"> Digital &amp; Print</span>
+                                </h5>
+                                <small class="text-muted">seit August 2011</small>
+                            </div>
+                            <small class="text-muted">SECRA GmbH, 23730 Sierksdorf</small>
+                        </section>
+
+                    </div>
+                </section>
+
+                <section class="col-lg-7 p-0">
+                    <h3 class="font-weight-normal mb-3">Bildung</h3>
+
+                    <div class="list-group my-3">
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Bootcamp &quot;neue fische&quot;</h5>
+                                <small class="text-muted">01/2020 - 04/2020</small>
+                            </div>
+                            <p class="mb-1">Weiterbildung zum Webdeveloper</p>
+                            <small class="text-muted">neuefische GmbH, 22761 Hamburg</small>
+                        </section>
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">
+                                    Ausbildung zur Mediengestalterin<br>
+                                    <span class="font-weight-light"> Digital &amp; Print</span>
+                                </h5>
+                                <small class="text-muted">08/2008 - 07/2011</small>
+                            </div>
+                            <small class="text-muted">SECRA GmbH, 23730 Sierksdorf | Walter-Lehmkuhl-Schule,
+                                Neumünster</small>
+                        </section>
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Studium Informatik / Medieninformatik</h5>
+                                <small>10/2007 - 03/2008</small>
+                            </div>
+                            <small class="text-muted">Universität zu Lübeck</small>
+                        </section>
+
+                        <section class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Allgemeine Hochschulreife</h5>
+                                <small class="text-muted">09/1999 - 06/2007</small>
+                            </div>
+                            <small class="text-muted">Anne-Frank-Schule, Bargteheide</small>
+                        </section>
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- General skills -->
+            <div class="row">
+                <section id="general-skills" class="mt-5 px-3 col-12">
+                    <h3 class="font-weight-normal mb-3">Allgemeine Kompetenzen</h3>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">verantwortungsvoll</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">ehrgeizig</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">neugierig</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">kreativ</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">mit Liebe zum Detail</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">schnelle Auffassungsgabe</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">selbstständig </span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">zuverlässig</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">teamfähig</span>
+                    <span class="badge badge-pill badge-light py-2 px-3 mb-1">offen für neue Herausforderungen</span>
                 </section>
             </div>
 
-            <section class="col-4"> 
-                <img src="images/julie-mahlke-contact.jpg" class="card-img-top">
-            </section>
-        </section>
+            <!-- Contact -->
+            <section id="contact" class="mt-5 row">
 
+                <div class="col-4">
+                    <section class="card">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-normal">Kontakt</h3>
+                            <h4 class="h5 card-title font-weight-normal mb-2">Julie Alexandria Mahlke</h4>
+                            <p class="card-text">
+                                Tremsbütteler Weg 53,</br>
+                                22941 Bargteheide<br>
+                                Tel.: 04532 - 2788818<br>
+                                Mobil: 0173 - 8551213<br>
+                                E-Mail: <a href="mailto:mail@julie-alexandria.de">mail@julie-alexandria.de</a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-4">
+                    <section class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="https://github.com/juliemahlke" target="_blank">
+                                    <img width="25" height="25" src="images/logo-github.png"
+                                        class="rounded-circle float-left mr-2">
+                                    Besuche mich auf Github</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://codepen.io/juliemahlke" target="_blank">
+                                    <img width="25" height="25" src="images/logo-codepen.png"
+                                        class="rounded-circle float-left mr-2">
+                                    Besuche mich auf Codepen</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://www.xing.com/profile/JulieAlexandria_Mahlke/cv" target="_blank">
+                                    <img width="25" height="25" src="images/logo-xing.jpg"
+                                        class="rounded-circle float-left mr-2">
+                                    Besuche mich auf Xing</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+                <section class="col-4">
+                    <img src="images/julie-mahlke-contact.jpg" class="card-img-top">
+                </section>
+            </section>
+        </div>
     </main>
 
     <footer class="bg-dark p-3 mt-5 text-light text-center">
